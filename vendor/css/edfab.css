@@ -1,7 +1,13 @@
-.center{
-	text-align: center;
-}
+a {
+  color: #00a; }
 
-a.link{
-	color: #00a;
-}
+.center {
+  text-align: center; }
+
+.row .izq {
+  text-align: center;
+  border: 1px solid black; }
+.row .des {
+  text-align: justify; }
+
+/*# sourceMappingURL=edfab.css.map */
