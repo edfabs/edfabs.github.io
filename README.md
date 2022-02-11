@@ -1,2 +1,2 @@
 # edfabs.github.io
-site curriculum
+i determined to become a full stack developer
