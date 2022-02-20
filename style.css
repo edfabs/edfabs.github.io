@@ -1,0 +1,54 @@
+main{
+    width: 350px;
+    margin:0 auto;
+    font-family:'Courier New', Courier, monospace;
+}
+header{
+    text-align: center;
+}
+header svg{
+    width: 25px;
+}
+header .perfil{
+    border-radius: 100%;
+    width: 250px;
+    border: 5px solid gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.contacto{
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    margin-top: 50px;
+    text-align: center;
+}
+.description p{
+    text-align: justify;
+}
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media(min-width: 600px){
+    main{
+        width: 80%;
+        font-size: 1.4rem;
+    }
+    .intereses{
+        margin: 50px 0 50px 0;
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
