@@ -16,6 +16,11 @@ header .perfil{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
+.divider{
+    margin: 40px 0 40px 0;
+    border-bottom: 5px dotted gray;
+}
+
 .contacto{
     width: 150px;
     margin: 0 auto;
