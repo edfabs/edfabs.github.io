@@ -35,6 +35,19 @@ header .perfil{
 .description p{
     text-align: justify;
 }
+.conocimiento{
+    border: 1px solid #3D7278;
+    border-radius: 2%;
+    background-color: #3D7278;
+}
+.intereses{
+    border-radius: 2%;
+    background-color:#7EEBF7;
+}
+.tambien{
+    background-color:#65BDC7;
+    border-radius: 2%;
+}
 
 .logos{
     display: flex;
@@ -47,8 +60,17 @@ header .perfil{
         width: 80%;
         font-size: 1.4rem;
     }
+    .conocimiento{        
+        display: flex;
+        justify-content: center;
+    }
     .intereses{
         margin: 50px 0 50px 0;
+        width: 48%;
+    }
+    .tambien{
+        margin: 50px 0 50px 0;
+        width: 48%;
     }
     .logos{
         display: flex;
