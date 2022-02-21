@@ -36,17 +36,17 @@ header .perfil{
     text-align: justify;
 }
 .conocimiento{
-    border: 1px solid #3D7278;
     border-radius: 2%;
-    background-color: #3D7278;
+    background-color: #31547A;
+}
+.intereses, .tambien{
+    border-radius: 2%;
 }
 .intereses{
-    border-radius: 2%;
-    background-color:#7EEBF7;
+    background-color:#64ADFA;
 }
 .tambien{
-    background-color:#65BDC7;
-    border-radius: 2%;
+    background-color:#64ADFA;
 }
 
 .logos{
@@ -64,12 +64,9 @@ header .perfil{
         display: flex;
         justify-content: center;
     }
-    .intereses{
-        margin: 50px 0 50px 0;
-        width: 48%;
-    }
-    .tambien{
-        margin: 50px 0 50px 0;
+    .intereses, .tambien{
+        margin: 10px;
+        padding: 10px;
         width: 48%;
     }
     .logos{
