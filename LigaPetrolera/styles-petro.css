@@ -33,7 +33,7 @@
 }
 .noticiasWrapper .one {
   grid-column: 1/2;
-  grid-row: 1/2;
+  grid-row: 1/3;
 }
 .noticiasWrapper .two {
   grid-column: 2/3;
