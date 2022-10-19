@@ -29,6 +29,34 @@
   grid-row: 2;
 }
 
+@media (max-width: 600px) {
+  .galeriaWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .galeriaWrapper .one {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  .galeriaWrapper .two {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+  .galeriaWrapper .three {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+  .galeriaWrapper .four {
+    grid-column: 1/2;
+    grid-row: 3;
+  }
+  .galeriaWrapper .five {
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+}
 .noticiasWrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
