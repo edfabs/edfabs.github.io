@@ -31,6 +31,9 @@
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+.noticiasWrapper h2 {
+  color: #004927;
+}
 .noticiasWrapper .one {
   grid-column: 1/2;
   grid-row: 1/3;
