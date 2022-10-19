@@ -1,3 +1,7 @@
+//Colores de sitio
+.colorPetro{
+    color:#004927;
+}
 .galeriaWrapper{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -32,10 +36,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-
-    h2{
-        color:#004927;
-    }
+    
     .one {
         grid-column: 1 / 2;
         grid-row: 1 / 3;

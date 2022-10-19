@@ -1,3 +1,7 @@
+.colorPetro {
+  color: #004927;
+}
+
 .galeriaWrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -30,9 +34,6 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-}
-.noticiasWrapper h2 {
-  color: #004927;
 }
 .noticiasWrapper .one {
   grid-column: 1/2;
