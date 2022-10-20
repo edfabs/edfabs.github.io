@@ -85,31 +85,9 @@
   width: 400px;
 }
 
-.instalacionesWrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0px;
-  grid-auto-rows: minmax(100px, auto);
-}
-.instalacionesWrapper .one {
-  grid-column: 1/2;
-  grid-row: 1;
-}
-.instalacionesWrapper .two {
-  grid-column: 2/3;
-  grid-row: 1;
-}
-.instalacionesWrapper .three {
-  grid-column: 1/2;
-  grid-row: 2;
-}
-.instalacionesWrapper .four {
-  grid-column: 2/3;
-  grid-row: 2;
-}
-.instalacionesWrapper .five {
-  grid-column: 1/2;
-  grid-row: 3;
+.grid-item-instalaciones {
+  width: 450px;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=styles-petro.css.map */

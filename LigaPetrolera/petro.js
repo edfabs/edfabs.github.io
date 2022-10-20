@@ -10,3 +10,15 @@ imagesLoaded( posts, function() {
         gutter: 10
     });
 });
+
+var posts = document.querySelectorAll('.contInstalaciones');
+imagesLoaded( posts, function() {
+    console.log("images loaded");
+    var grid = document.querySelector('.grid');
+    var msnry = new Masonry( grid, {
+        // options
+        itemSelector: '.grid-item-instalaciones',
+        columnWidth: 450,
+        gutter: 10
+    });
+});
