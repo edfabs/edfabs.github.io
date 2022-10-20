@@ -18,7 +18,7 @@ imagesLoaded( posts, function() {
     var msnry = new Masonry( grid, {
         // options
         itemSelector: '.grid-item-instalaciones',
-        columnWidth: 450,
+        columnWidth: 600,
         gutter: 10
     });
 });
