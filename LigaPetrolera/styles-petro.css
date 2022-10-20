@@ -90,7 +90,7 @@
   margin-bottom: 10px;
 }
 
-@media (max-wwidth: 600px) {
+@media (max-width: 600px) {
   .grid-item-instalaciones {
     width: 300px;
     margin-bottom: 10px;
