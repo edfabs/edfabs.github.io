@@ -6,7 +6,7 @@ imagesLoaded( posts, function() {
     var msnry = new Masonry( grid, {
         // options
         itemSelector: '.grid-item',
-        columnWidth: 350,
+        columnWidth: 300,
         gutter: 10
     });
 });
