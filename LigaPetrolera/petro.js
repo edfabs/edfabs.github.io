@@ -1,8 +1,5 @@
 var grid = document.querySelector('.grid');
-var posts = document.querySelectorAll('.grid-item');
-imagesLoaded( posts, function() {
-    console.log("images loaded");
-});
+
 var msnry = new Masonry( grid, {
   // options
   itemSelector: '.grid-item',
@@ -13,4 +10,8 @@ var msnry = new Masonry( grid, {
 //   for an individual element
 var msnry = new Masonry( '.grid', {
   // options
+});
+var posts = document.querySelectorAll('.grid-item');
+imagesLoaded( posts, function() {
+    console.log("images loaded");
 });
