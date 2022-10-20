@@ -1,4 +1,7 @@
 var elem = document.querySelector('.grid');
+imagesLoaded( document.querySelector('#grid-item'), function( instance ) {
+    console.log('all images are loaded');
+  });
 var msnry = new Masonry( elem, {
   // options
   itemSelector: '.grid-item',
