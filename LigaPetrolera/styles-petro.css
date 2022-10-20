@@ -90,4 +90,11 @@
   margin-bottom: 10px;
 }
 
+@media (max-wwidth: 600px) {
+  .grid-item-instalaciones {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+}
+
 /*# sourceMappingURL=styles-petro.css.map */
