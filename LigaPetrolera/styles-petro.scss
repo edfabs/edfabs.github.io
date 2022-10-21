@@ -136,3 +136,17 @@
 
   }
 }
+
+@media (max-width:600px){
+  .newsContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+    .news-list{
+      grid-column: 1 / 4;
+      grid-row: 1 / 4;
+    }
+  }
+}
