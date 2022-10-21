@@ -6,6 +6,10 @@
   color: #D31C1B;
 }
 
+.colorPetroText {
+  color: #707070;
+}
+
 .galeriaWrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
