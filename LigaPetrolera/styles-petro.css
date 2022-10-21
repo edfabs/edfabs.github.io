@@ -118,11 +118,11 @@
 }
 .newsContainer .categorias-list {
   grid-column: 3/4;
-  grid-row: 1/2;
+  grid-row: 1;
 }
 .newsContainer .lastfiveNews {
   grid-column: 3/4;
-  grid-row: 2/3;
+  grid-row: 2;
 }
 
 /*# sourceMappingURL=styles-petro.css.map */
