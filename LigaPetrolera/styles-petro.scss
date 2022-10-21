@@ -114,6 +114,13 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color:#D31C1B;
+  }
   
   .news-list{
     grid-column: 1 / 3;
