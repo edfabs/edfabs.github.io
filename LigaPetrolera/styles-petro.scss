@@ -162,11 +162,17 @@
 .principios{
   padding-top: 75px;
 }
+.logoPetro{
+  width: 70%;
+}
 @media (max-width:600px){
   .bola{
     width: 100%;
   }
   .principios{
     padding-top: 0px;
+  }
+  .logoPetro{
+    width: 100%;
   }
 }
