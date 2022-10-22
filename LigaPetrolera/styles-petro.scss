@@ -153,3 +153,17 @@
     }
   }
 }
+
+// Nosotros
+
+.bola{
+  width: 80%;
+}
+.principios{
+  padding-top: 30px;
+}
+@media (max-width:600px){
+  .bola{
+    width: 100%;
+  }
+}

@@ -141,5 +141,18 @@
     grid-row: 1/4;
   }
 }
+.bola {
+  width: 80%;
+}
+
+.principios {
+  padding-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .bola {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=styles-petro.css.map */
