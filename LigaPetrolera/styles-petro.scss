@@ -175,10 +175,15 @@
   .logoPetro{
     width: 100%;
   }
-}
+} 
 
 //Home slider
 
-.carousel-caption{
-  bottom:5.25rem;
+@media (min-width:769px){
+  .carousel-caption{
+    bottom:5.25rem;
+  }
+  .entrena{
+    font-size: 3.5rem!important;
+  }
 }
