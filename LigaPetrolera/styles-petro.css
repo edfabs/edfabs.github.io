@@ -166,5 +166,8 @@
     width: 100%;
   }
 }
+.carousel-caption {
+  bottom: 5.25rem;
+}
 
 /*# sourceMappingURL=styles-petro.css.map */
