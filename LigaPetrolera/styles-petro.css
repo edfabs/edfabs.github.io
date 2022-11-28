@@ -198,7 +198,7 @@
     height: 321px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 840px) {
   .mi-iframe {
     width: 200px;
     height: 150px;
@@ -206,8 +206,8 @@
 }
 @media (max-width: 375px) {
   .mi-iframe {
-    width: 100px;
-    height: 50px;
+    width: 138px;
+    height: 142px;
   }
 }
 
