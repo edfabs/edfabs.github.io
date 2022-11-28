@@ -153,6 +153,11 @@
   width: 70%;
 }
 
+.mi-iframe {
+  width: 100px;
+  height: 50px;
+}
+
 @media (max-width: 600px) {
   .bola {
     width: 100%;
@@ -165,6 +170,11 @@
   .logoPetro {
     width: 100%;
   }
+  .mi-iframe {
+    width: 560px;
+    height: 315px;
+  }
+
 }
 .carousel-caption {
   bottom: 5.25rem;
@@ -190,6 +200,10 @@
 
   .entrena {
     font-size: 1.5rem !important;
+  }
+  .mi-iframe {
+    width: 200px;
+    height: 150px;
   }
 }
 
